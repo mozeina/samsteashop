@@ -1,4 +1,4 @@
-#Sam's Tea Shop
+# Sam's Tea Shop
 
 #### This is a webpage that had some CSS errors which I fixed.
 
