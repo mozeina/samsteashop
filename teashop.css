@@ -1,0 +1,179 @@
+*{
+    font-family: Helvetica;
+    font-size: 25px;
+    color: seashell;
+    opacity: .9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    z-index: 100;
+    opacity: 1;
+    background-color: black;
+    
+}
+#headerimg{
+    float: left;
+    margin-left: 10px;
+    height: 50px;
+    margin-top: 10px
+}
+.header nav{
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.navbar li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.navbar li a{
+    text-decoration: underline;
+}
+.hero img{
+    margin-top: 70px;
+}
+.hero{
+    text-align: center;
+    position: relative;
+}
+.heroimg {
+    width: 1200px;
+    height: 700px;
+    margin-top: 70px;
+}
+.herotext{
+    position: relative;
+    height: 100px;
+    margin-top: -450px;
+    line-height: 2;
+    opacity: 1;
+    background-color: black;
+}    
+.totm{
+    width: 1000px;
+    position: relative;
+    z-index: 1;
+    top: 400px;
+    margin: 0 auto;
+}
+.totmimgs{
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.coffee h4{
+    margin-top: -15px;
+}
+.totmtext{
+    line-height: 2;
+}
+
+.totmimgs img{ /*dont change this*/
+    width: 300px;
+    height: 200px;
+    margin: 30px 5px;
+}
+.fourthimg{
+    margin-right: -170px;
+}
+.fifthimg{
+    margin-left: -170px
+}
+
+.location{
+    overflow: scroll;
+}
+.locationimg{
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+
+}
+.locationimg img{
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 500px;
+    
+
+}
+.locationstext{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}    
+.locationstext h2{
+    font-size: 40px;
+}
+.locationboxescontainer{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+.locationboxes{
+   
+    display: inline-flex;
+    width: 300px; height: 300px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    top: 100px;
+    opacity: 100%;
+    margin:  15px 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+footer .footcenter{
+    height: 200px;
+    position: relative;
+    top: 119px;
+    background-color: black;
+    line-height: 4;
+   
+}
+.footcentertext h5 a {
+    text-decoration: none;
+}
+.footcentertext2 h5{
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
